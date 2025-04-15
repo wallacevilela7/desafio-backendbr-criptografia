@@ -1,0 +1,10 @@
+services:
+  postgres:
+    container_name: 'postgres-criptoapi'
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=criptoapi-db'
+      - 'POSTGRES_USER=myuser'
+      - 'POSTGRES_PASSWORD=secret'
+    ports:
+        - '5432:5432'
