@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>tech.wvs</groupId>
-    <artifactId>criptography-api</artifactId>
+    <artifactId>cryptography-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>criptography-api</name>
-    <description>criptography-api</description>
+    <name>cryptography-api</name>
+    <description>cryptography-api</description>
     <url/>
     <licenses>
         <license/>
@@ -68,6 +68,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+        <dependency>
+            <groupId>org.jasypt</groupId>
+            <artifactId>jasypt</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
